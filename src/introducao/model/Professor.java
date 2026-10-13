@@ -1,6 +1,6 @@
-package introduçao.model;
+package introducao.model;
 
-public class Estudante {
+public class Professor {
     public String nome;
     public int idade;
     public String sexo;
