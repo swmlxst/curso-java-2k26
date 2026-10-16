@@ -9,18 +9,9 @@ public class AtividadeFuncionário {
         Funcionarios f = new Funcionarios();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite seu nome e idade pra ver a média dos seus salário: ");
-        f.nome = sc.nextLine();
-        f.idade = sc.nextInt();
-
-        f.imprimirDados();
-        System.out.println("-------------");
-
-        System.out.println("Salário 1: "+ f.salario[0]);
-        System.out.println("Salário 2: "+ f.salario[1]);
-        System.out.println("Salário 3: "+ f.salario[2]);
-        System.out.println("-------------");
-        f.SalarioArray(f.salario);
-
+      f.setNome("Sanji");
+      f.setIdade(69);
+      f.setSalario(new double[]{124, 12413, 12312});
+      f.imprimirDados();
     }
 }
